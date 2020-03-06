@@ -9,6 +9,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 public class mySurfaceView extends SurfaceView implements SurfaceHolder.Callback {
+    //boolean f = flag;
     MyDraw md;
     boolean checked=false;
     public mySurfaceView(Context context) {
